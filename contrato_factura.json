@@ -1,0 +1,24 @@
+{
+  "name": "extraer_datos_factura",
+  "description": "Extrae y estructura los datos fiscales de una factura mexicana (CFDI) a partir de un archivo PDF o imagen (PNG, JPG, JPEG). Devuelve los datos en formato JSON (emisor, receptor, conceptos, importes y folio fiscal). Úsala cuando el usuario pida leer, analizar o digitalizar una factura.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "input_path": {
+        "type": "string",
+        "description": "Ruta absoluta o relativa del archivo de la factura (.pdf, .png, .jpg o .jpeg)."
+      },
+      "page_num": {
+        "type": "integer",
+        "description": "Número de página a procesar si el archivo es un PDF (empieza en 1). Por defecto es 1.",
+        "default": 1,
+        "minimum": 1
+      },
+      "output_json_path": {
+        "type": "string",
+        "description": "Ruta opcional donde guardar el JSON resultante en disco. Si no se especifica, solo se devuelven los datos."
+      }
+    },
+    "required": ["input_path"]
+  }
+}

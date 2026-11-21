@@ -1,0 +1,33 @@
+{
+    "fecha_y_hora_de_emision": "2026-07-28T17:53:44",
+    "folio_fiscal": "E9F8F496-1DB8-4361-975B-9B9D2C51FCEE",
+    "emisor": {
+        "rfc": "ITE430714KI0",
+        "regimen_fiscal": "603 - Personas Morales con Fines no Lucrativos",
+        "lugar_de_expedicion": "52926"
+    },
+    "receptor": {
+        "uso_cfdI": "S01 - Sin efectos fiscales.",
+        "rfc": "XAXX010101000",
+        "nombre": "Publico en general",
+        "regimen_fiscal": "616 - Sin obligaciones fiscales",
+        "domicilio_fiscal": "52926"
+    },
+    "conceptos": [
+        {
+            "cantidad": 0.0,
+            "clave_producto_o_servicio": "86121701",
+            "unidad": "E48",
+            "descripcion": "Unidad de servicio Cobertura pago de colegiaturas",
+            "objeto_impuesto": "",
+            "impuesto": "",
+            "valor_unitario": 2415.0,
+            "importe": 2415.0,
+            "descuento": 0.0
+        }
+    ],
+    "subtotal": 2415.0,
+    "moneda": "MXN",
+    "total": 2415.0,
+    "metodo_de_pago": "PUE - Pago en una sola exhibición"
+}
